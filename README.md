@@ -9,6 +9,8 @@
 #### Electro-optic tensor of LiNbO<sub>3</sub>
 <div align="center"><img width="230" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\bar{\bar{r}}=\begin{pmatrix}&space;0&-r_{22}&space;&r_{13}&space;\\&space;0&r_{22}&space;&r_{13}&space;\\&space;0&0&space;&r_{33}&space;\\&space;0&r_{42}&space;&0&space;\\&space;r_{42}&0&space;&0&space;\\&space;-r_{22}&0&space;&0&space;\end{pmatrix}" title="\bar{\bar{r}}=\begin{pmatrix} 0&-r_{22} &r_{13} \\ 0&r_{22} &r_{13} \\ 0&0 &r_{33} \\ 0&r_{42} &0 \\ r_{42}&0 &0 \\ -r_{22}&0 &0 \end{pmatrix}" /> </div>  
 
+#### [Calculator for Electro-optic Coefficient](http://www.luxpop.com/calc_v153.cgi)
+
 Electro-optic Coefficient | Value (pm/V) (Boyd, 2003)
 :---: | :---: 
 r<sub>13</sub> | 9.6
@@ -20,13 +22,24 @@ r<sub>42</sub> | 32.6
 
 #### Required voltage for changing a pi phase
 
-<div align="center"><img width="180" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
-<!<img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" />
+<div align="center"><img width="130" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
+
+* Applied electric field in Z direction, wave propagates in y direction :
+
+<div align="center"><img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" /></div>
+
+* wave propagates in z direction :
+<div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{0}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
 Index of Refraction | Value | Laser wavelength 
 :---: | :---: | :---:
+n<sub>o</sub> | 2.3232 | 532nm
+n<sub>e</sub> | 2.2342 | 532nm
 n<sub>o</sub> | 2.2491 | 852nm
 n<sub>e</sub> | 2.1702 | 852nm
+n<sub>o</sub> | 2.232 | 1064nm
+n<sub>e</sub> | 2.156 | 1064n
+
 
 ## Shopping list
 
