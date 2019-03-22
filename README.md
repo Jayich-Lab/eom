@@ -2,7 +2,7 @@
 
 ## Crystal 
 
-* We select Lithium niobate (LiNbO<sub>3</sub>)
+* We select Lithium niobate (LiNbO<sub>3</sub>), it has a good Pockels effect, so we can minimize the input voltage to have a phase change of what we want.
 #### Relationship between the index of refraction, the electro-optic tensor, and the electric field
 <div align="center"><img width="400"  src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\begin{pmatrix}&space;\Delta(\frac{1}{n^{2}})_{1}\\&space;\Delta(\frac{1}{n^{2}})_{2}\\&space;\Delta(\frac{1}{n^{2}})_{3}\\&space;\Delta(\frac{1}{n^{2}})_{4}\\&space;\Delta(\frac{1}{n^{2}})_{5}\\&space;\Delta(\frac{1}{n^{2}})_{6}&space;\end{pmatrix}=&space;\begin{pmatrix}&space;r_{11}&space;&r_{12}&space;&r_{13}&space;\\&space;r_{21}&space;&r_{22}&space;&r_{23}&space;\\&space;r_{31}&space;&r_{32}&space;&r_{33}&space;\\&space;r_{41}&space;&r_{42}&space;&r_{43}&space;\\&space;r_{51}&space;&r_{52}&space;&r_{53}&space;\\&space;r_{61}&space;&r_{62}&space;&r_{63}&space;\end{pmatrix}\begin{pmatrix}&space;E_x\\&space;E_y\\&space;E_z&space;\end{pmatrix}" title="\begin{pmatrix} \Delta(\frac{1}{n^{2}})_{1}\\ \Delta(\frac{1}{n^{2}})_{2}\\ \Delta(\frac{1}{n^{2}})_{3}\\ \Delta(\frac{1}{n^{2}})_{4}\\ \Delta(\frac{1}{n^{2}})_{5}\\ \Delta(\frac{1}{n^{2}})_{6} \end{pmatrix}= \begin{pmatrix} r_{11} &r_{12} &r_{13} \\ r_{21} &r_{22} &r_{23} \\ r_{31} &r_{32} &r_{33} \\ r_{41} &r_{42} &r_{43} \\ r_{51} &r_{52} &r_{53} \\ r_{61} &r_{62} &r_{63} \end{pmatrix}\begin{pmatrix} E_x\\ E_y\\ E_z \end{pmatrix}" /></div>
 
@@ -20,15 +20,15 @@ r<sub>42</sub> | 32.6
 
 >certain error margin should be considered
 
-#### Required voltage for changing a pi phase
+#### Required voltage for changing a π phase
 
 <div align="center"><img width="130" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
 
-* Applied electric field in Z direction, wave propagates in y direction :
+* Applied electric field in Z direction, wave propagates in y direction (Y-Cut) :
 
 <div align="center"><img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" /></div>
 
-* wave propagates in z direction :
+* wave propagates in z direction (Z-Cut):
 <div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{0}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
 Index of Refraction | Value | Laser wavelength 
@@ -40,6 +40,18 @@ n<sub>e</sub> | 2.1702 | 852nm
 n<sub>o</sub> | 2.232 | 1064nm
 n<sub>e</sub> | 2.156 | 1064n
 
+---
+
+#### Conclusion
+
+So we are going to order Lithium niobate crystal as our EOM crystal.
+##### Base on the calculation of above, it seems that Z-Cut LN crystal will results in lowest input voltage.
+However, in warner's proposal, he chose the Y-Cut of LN crystal. __(Need to figure it out)__
+Also, we need to have a AR-coating of crystal covering the wavelength range of our experiments.
+##### Wavelength needed: 400nm-1100nm
+we may need to order several crystals and make different EOM to cover this range
+
+---
 
 ## Shopping list
 
