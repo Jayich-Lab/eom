@@ -22,6 +22,8 @@ r<sub>42</sub> | 32.6
 
 #### Required voltage for changing a π phase
 
+>Cut of a crystal means the way the light is going to propagate to. (i.e. Y-Cut means light will travels in Y direction of crystal.)
+
 <div align="center"><img width="130" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
 
 * Applied electric field in Z direction, wave propagates in y direction (Y-Cut) :
@@ -47,6 +49,7 @@ n<sub>e</sub> | 2.156 | 1064n
 So we are going to order Lithium niobate crystal as our EOM crystal.
 ##### Base on the calculation of above, it seems that Z-Cut LN crystal will results in lowest input voltage.
 However, in warner's proposal, he chose the Y-Cut of LN crystal. __(Need to figure it out)__
+##### the halfway voltage needed does not vary very much from different cut, so we may choose Y-Cut of LN crystal.
 Also, we need to have a AR-coating of crystal covering the wavelength range of our experiments.
 ##### Wavelength needed: 400nm-1100nm
 we may need to order several crystals and make different EOM to cover this range
