@@ -19,6 +19,7 @@ r<sub>33</sub> | 30.9
 r<sub>42</sub> | 32.6
 
 >certain error margin should be considered
+[Here shows two different versions of Electro Optic Coefficients](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf)
 
 #### Required voltage for changing a π phase
 
@@ -48,13 +49,11 @@ n<sub>e</sub> | 2.156 | 1064n
 
 So we are going to order Lithium niobate crystal as our EOM crystal.
 ##### Base on the calculation of above, it seems that Z-Cut LN crystal will results in lowest input voltage.
-However, in warner's proposal, he chose the Y-Cut of LN crystal. __(they use different value of r<sub>22</sub>)__ 
+However, in warner's proposal, he chose the Y-Cut of LN crystal. __(they use different value of r<sub>22</sub>)__ In this [reference document](http://www.ece.umd.edu/~davis/chapter19.pdf) it gives r<sub>22</sub> to be the half value  
 ##### the halfway voltage needed does not vary very much from different cut, so we may choose Y-Cut of LN crystal.
 Also, we need to have a AR-coating of crystal covering the wavelength range of our experiments.
 ##### Wavelength needed: 400nm-1100nm
 we may need to order several crystals and make different EOM to cover this range
-
-[reference](http://www.ece.umd.edu/~davis/chapter19.pdf)
 
 ---
 
