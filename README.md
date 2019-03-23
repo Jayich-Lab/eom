@@ -54,6 +54,8 @@ Also, we need to have a AR-coating of crystal covering the wavelength range of o
 ##### Wavelength needed: 400nm-1100nm
 we may need to order several crystals and make different EOM to cover this range
 
+[reference](https://arxiv.org/ct?url=https%3A%2F%2Fdx.doi.org%2F10.1103%252FPhysRevX.8.011038&v=938011bd)
+
 ---
 
 ## Shopping list
