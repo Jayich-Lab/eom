@@ -41,7 +41,7 @@ n<sub>e</sub> | 2.2342 | 532nm
 n<sub>o</sub> | 2.2491 | 852nm
 n<sub>e</sub> | 2.1702 | 852nm
 n<sub>o</sub> | 2.232 | 1064nm
-n<sub>e</sub> | 2.156 | 1064n
+n<sub>e</sub> | 2.156 | 1064nm
 
 ---
 
@@ -61,6 +61,22 @@ we may need to order several crystals and make different EOM to cover this range
 We need a resonance circuit to minimize the input voltage which keeps the device safe to opertate.
 
 Current plan is to add a inductor (1uF) to the circuit and make it to a resonance frequency.
+
+##### resonance frequency is angular frequency devided by 2π
+
+<div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bb119465c93a0c82f306bea463e78aee8c8c616f"></div>
+
+##### we can use parallel plate capacitor formular to calculate capacitance: 
+<div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/829b1da4f102f31c51b8be9babd08811a7c36cc6"></div>
+
+parameter | Value | Description |
+:---: | :---: | :---: |
+ε<sub>0</sub> | 8.854 × 10<sup>-12</sup> | electric constant (in F⋅m<sup>−1</sup>)
+A | 0.03 × 0.3 | area of two plates (in meters<sup>2</sup>)
+d | 0.03 | distance between plates (in meters)
+C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of it is roughly 1.629785262 × 10<sup>-6</sup> 
+
+[reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
 
 ---
 
