@@ -11,13 +11,15 @@
 
 #### [Calculator for Electro-optic Coefficient](http://www.luxpop.com/calc_v153.cgi)
 
-Electro-optic Coefficient | Value (pm/V) (Boyd, 2003)
-:---: | :---: 
-r<sub>13</sub> | 9.6
+Electro-optic Coefficient | Value (pm/V) | 
+:---: | :---: | 
+r<sub>13</sub> | 9.6 
 r<sub>22</sub> | 6.8
-r<sub>33</sub> | 30.9
-r<sub>42</sub> | 32.6
+r<sub>33</sub> | 30.9 
+r<sub>42</sub> | 32.6  
 
+>pm to m (× 10<sup>-12</sup>)
+>(Boyd, 2003)
 >certain error margin should be considered
 [Here shows two different versions of Electro Optic Coefficients](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf)
 
@@ -42,6 +44,8 @@ n<sub>o</sub> | 2.2491 | 852nm
 n<sub>e</sub> | 2.1702 | 852nm
 n<sub>o</sub> | 2.232 | 1064nm
 n<sub>e</sub> | 2.156 | 1064nm
+
+>nm to m (× 10<sup>-9</sup>)
 
 ---
 
