@@ -93,6 +93,21 @@ A | 0.03 × 0.3 | area of two plates (in meters<sup>2</sup>)
 d | 0.03 | distance between plates (in meters)
 C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of it is roughly 1.629785262 × 10<sup>-6</sup> 
 
+##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
+<div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{c}}{X_{c}&plus;X_{L}&plus;R_{sma}&plus;R_{road}}V_{input}" title="V_{eom}=\frac{X_{c}}{X_{c}+X_{L}+R_{sma}+R_{road}}V_{input}" /></div>
+
+##### Take the real part of V<sub>eom</sub>
+
+<div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
+
+>##### R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
+>##### C = 20 pF ( or 2.6562 × 10<sup>-12</sup>)
+>##### if we have 1uF inductor, which is 1 × 10<sup>-6</sup> F 
+>##### we will have approximately f = 100000000 Hz = 100 MHz, ω<sub>0</sub> = 700000000 rad/s = 7 × 10<sup>8</sup> rad/s
+>##### V<sub>eom</sub>/V<sub>input</sub> = 5 (approximately) 
+####So the maximum needed voltage is about 100 V and the minimum voltage to operate is about 40 V
+
+
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
 
 ---
