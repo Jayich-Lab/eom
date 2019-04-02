@@ -96,8 +96,6 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of 
 ##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{c}}{X_{c}&plus;X_{L}&plus;R_{sma}&plus;R_{road}}V_{input}" title="V_{eom}=\frac{X_{c}}{X_{c}+X_{L}+R_{sma}+R_{road}}V_{input}" /></div>
 
-##### Take the real part of V<sub>eom</sub>
-
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
 
 >##### R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
