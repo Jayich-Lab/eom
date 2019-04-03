@@ -98,12 +98,13 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of 
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
 
->##### R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
->##### C = 2.6562 × 10<sup>-12</sup>
->##### if we have 1uH inductor, which is 1 × 10<sup>-6</sup> H 
->##### we will have approximately f = 97653936 Hz = 1 × 10<sup>8</sup> =  100 MHz, ω<sub>0</sub> = 613577766 rad/s = 6.1 × 10<sup>8</sup> rad/s
->##### V<sub>eom</sub>/V<sub>input</sub> = 6 (approximately) 
-####So the maximum needed voltage is about 90 V and the minimum voltage to operate is about 33 V
+> R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
+ C = 2.6562 × 10<sup>-12</sup>
+ if we have 1uH inductor, which is 1 × 10<sup>-6</sup> H 
+ we will have approximately f = 97653936 Hz = 1 × 10<sup>8</sup> =  100 MHz, ω<sub>0</sub> = 613577766 rad/s = 6.1 × 10<sup>8</sup> rad/s
+ V<sub>eom</sub>/V<sub>input</sub> = 6 (approximately) 
+ 
+#### So the maximum needed voltage is about 90 V and the minimum voltage to operate is about 33 V
 
 
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
