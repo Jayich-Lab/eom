@@ -100,15 +100,16 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of 
 
 > R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
 
-> C = 2.6562 × 10<sup>-12</sup>
+> C = 2.6562 × 10<sup>-12</sup> (approximately)
 
-> if we have 1uH inductor, which is 1 × 10<sup>-6</sup> H 
+>ω<sub>0</sub> = 62830580 rad/s =6.3 × 10<sup>7</sup> (approximately)
 
-> we will have approximately f = 97653936 Hz = 1 × 10<sup>8</sup> =  100 MHz, ω<sub>0</sub> = 613577766 rad/s = 6.1 × 10<sup>8</sup> rad/s
+> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 100uH (approximately)
 
-##### V<sub>eom</sub>/V<sub>input</sub> = 6 (approximately) 
 
-#### So the maximum needed voltage is about 90 V and the minimum voltage to operate is about 33 V
+##### V<sub>eom</sub>/V<sub>input</sub> = 61.215 = 60 (approximately) 
+
+#### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 3 V
 
 
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
@@ -118,6 +119,6 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of 
 ## Shopping list
 
 - [ ] [1uH inductor chip](https://www.aliexpress.com/item/50pcs-lot-1206-SMD-Chip-inductor-3216-1uH-1-2uH-1-5uH-1-8uH-2-2uH/32858773509.html?spm=2114.search0104.3.57.4b4163c75f5PAD&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_453_10084_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=2d753224-a77a-4433-8c6b-cfb30f010083-8&algo_pvid=2d753224-a77a-4433-8c6b-cfb30f010083&transAbTest=ae803_4) 
-- [ ] [SMA Connector chip (.062''PCB)](https://www.aliexpress.com/item/SMA-female-PCB-end-launch-mount-wide-flange-connector-062-PCB-free-shipping/306672227.html?spm=2114.search0104.3.8.529024526b9rSO&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_453_10084_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=edf8f631-aec6-46df-9352-fb78b9c3eb2a-1&algo_pvid=edf8f631-aec6-46df-9352-fb78b9c3eb2a&transAbTest=ae803_4) or [for .031'' PCB](https://www.aliexpress.com/item/SMA-female-PCB-end-launch-mount-wide-flange-connector-031-PCB-free-shipping/306670923.html?spm=2114.search0104.3.56.529024526b9rSO&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_453_10084_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=edf8f631-aec6-46df-9352-fb78b9c3eb2a-9&algo_pvid=edf8f631-aec6-46df-9352-fb78b9c3eb2a&transAbTest=ae803_4)
+- [ ] [RF Connector](https://solutions.sciquest.com/apps/Router/PunchoutFrameSet?ReturnUrl=https%3A%2F%2Fsolutions.sciquest.com%2Fapps%2FRouter%2FShoppingDashboardUserDetails%3Ftmstmp%3D1554279739810&supplierId=126423&punchoutSessionId=&punchoutOperation=create&RequestContext=Showcase&tmstmp=1554322194537)
 - [ ] Indium
 - [ ] Lithium Niobate Crystal
