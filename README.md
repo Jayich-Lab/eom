@@ -62,7 +62,7 @@ Also, we need to have a AR-coating of crystal covering the wavelength range of o
 ##### Wavelength needed: 400nm-1100nm
 we may need to order several crystals and make different EOM to cover this range
 
-####Without resonance circuit, the input voltage needed ( with d = 0.03m, L = 0.3m )
+#### Without resonance circuit, the input voltage needed ( with d = 0.03m, L = 0.3m )
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
@@ -91,7 +91,7 @@ parameter | Value | Description |
 ε<sub>0</sub> | 8.854 × 10<sup>-12</sup> | electric constant (in F⋅m<sup>−1</sup>)
 A | 0.03 × 0.3 | area of two plates (in meters<sup>2</sup>)
 d | 0.03 | distance between plates (in meters)
-C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of it is roughly 1.629785262 × 10<sup>-6</sup> 
+C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal 
 
 ##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{C}}{X_{C}&plus;X_{L}&plus;R_{sma}&plus;R_{load}}V_{input}" title="V_{eom}=\frac{X_{C}}{X_{C}+X_{L}+R_{sma}+R_{load}}V_{input}" /></div>
@@ -118,7 +118,7 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal, the square root of 
 
 ## Shopping list
 
-- [ ] [1uH inductor chip](https://www.aliexpress.com/item/50pcs-lot-1206-SMD-Chip-inductor-3216-1uH-1-2uH-1-5uH-1-8uH-2-2uH/32858773509.html?spm=2114.search0104.3.57.4b4163c75f5PAD&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10130_10068_10890_10547_319_10546_317_10548_10545_10696_453_10084_454_10083_10618_10307_537_536_10902_10059_10884_10887_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=2d753224-a77a-4433-8c6b-cfb30f010083-8&algo_pvid=2d753224-a77a-4433-8c6b-cfb30f010083&transAbTest=ae803_4) 
-- [ ] [RF Connector](https://solutions.sciquest.com/apps/Router/PunchoutFrameSet?ReturnUrl=https%3A%2F%2Fsolutions.sciquest.com%2Fapps%2FRouter%2FShoppingDashboardUserDetails%3Ftmstmp%3D1554279739810&supplierId=126423&punchoutSessionId=&punchoutOperation=create&RequestContext=Showcase&tmstmp=1554322194537)
+- [ ] 100uH inductor chip
+- [ ] RF Connector
 - [ ] Indium
 - [ ] Lithium Niobate Crystal
