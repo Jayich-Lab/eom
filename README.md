@@ -94,6 +94,10 @@ d | 0.03 | distance between plates (in meters)
 C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal 
 
 ##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
+
+>V<sub>eom</sub> is the voltage difference of two plates between the EO crystal.
+>V<sub>input</sub> is the needed voltage we are going to plug in.
+
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{C}}{X_{C}&plus;X_{L}&plus;R_{sma}&plus;R_{load}}V_{input}" title="V_{eom}=\frac{X_{C}}{X_{C}+X_{L}+R_{sma}+R_{load}}V_{input}" /></div>
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
