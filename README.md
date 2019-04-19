@@ -84,14 +84,19 @@ Current plan is to add a inductor (1uF) to the circuit and make it to a resonanc
 <div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bb119465c93a0c82f306bea463e78aee8c8c616f"></div>
 
 ##### we can use parallel plate capacitor formular to calculate capacitance: 
-<div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/829b1da4f102f31c51b8be9babd08811a7c36cc6"></div>
+<div align="center"><img width="90" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;C=\epsilon&space;_{33}\frac{A}{d}" title="C=\epsilon _{33}\frac{A}{d}" /></div>
+
+##### permittivity for  Lithium Niobate:
+<div align="center"><img width="180" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\begin{pmatrix}&space;\epsilon_{11}&space;&0&space;&&space;0&space;\\&space;0&space;&\epsilon_{11}&space;&0&space;\\&space;0&space;&0&space;&\epsilon_{33}&space;\end{pmatrix}" title="\begin{pmatrix} \epsilon_{11} &0 & 0 \\ 0 &\epsilon_{11} &0 \\ 0 &0 &\epsilon_{33} \end{pmatrix}" /></div>
+
+>if we apply electric field in Z direction, we are going to use ε<sub>33</sub>
 
 parameter | Value | Description |
 :---: | :---: | :---: |
-ε<sub>0</sub> | 8.854 × 10<sup>-12</sup> | electric constant (in F⋅m<sup>−1</sup>)
-A | 0.03 × 0.3 | area of two plates (in meters<sup>2</sup>)
-d | 0.03 | distance between plates (in meters)
-C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal 
+ε<sub>33</sub> | 0.2543 × 10<sup>-9</sup> | permittivity for lithium niobate (in F⋅m<sup>−1</sup>)
+A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
+d | 0.003 | distance between plates (in meters)
+C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal 
 
 ##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
 
@@ -104,16 +109,16 @@ C | 2.6562 × 10<sup>-12</sup> | Capacitance of the crystal
 
 > R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
 
-> C = 2.6562 × 10<sup>-12</sup> (approximately)
+> C = 7.629 × 10<sup>-12</sup> (approximately)
 
->ω<sub>0</sub> = 62830580 rad/s =6.3 × 10<sup>7</sup> (approximately)
+>ω<sub>0</sub> = ? rad/s =? × 10<sup>7</sup> (approximately)
 
-> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 100uH (approximately)
+> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 33.2uH (approximately)
 
 
-##### V<sub>eom</sub>/V<sub>input</sub> = 61.215 = 60 (approximately) 
+##### V<sub>eom</sub>/V<sub>input</sub> = ? = ? (approximately) 
 
-#### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 3 V
+#### So the maximum needed voltage is about ? V and the minimum voltage to operate is about ? V
 
 
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
