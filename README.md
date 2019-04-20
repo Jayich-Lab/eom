@@ -102,23 +102,26 @@ C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal
 
 >V<sub>eom</sub> is the voltage difference of two plates between the EO crystal.
 >V<sub>input</sub> is the needed voltage we are going to plug in.
+>R<sub>sma</sub> is the resistance of SMA RF connector.
+>R<sub>load</sub> is the resistance for the circuit. Follow by __Claire Warner__'s thesis
+>>The portion of conductor immediately surrounding the SMA signal out- put was impedance matched to 50Ω to match the SMA connector and avoid signal reflections 
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{C}}{X_{C}&plus;X_{L}&plus;R_{sma}&plus;R_{load}}V_{input}" title="V_{eom}=\frac{X_{C}}{X_{C}+X_{L}+R_{sma}+R_{load}}V_{input}" /></div>
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
 
-> R<sub>sma</sub> = R<sub>load</sub> = 50 Ω (approximation values) 
+> R<sub>sma</sub> = R<sub>load</sub> = 50 Ω  
 
 > C = 7.629 × 10<sup>-12</sup> (approximately)
 
->ω<sub>0</sub> = ? rad/s =? × 10<sup>7</sup> (approximately)
+>ω<sub>0</sub> = 2 × π × f
 
 > we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 33.2uH (approximately)
 
 
 ##### V<sub>eom</sub>/V<sub>input</sub> = 20.86 = 21 (approximately) 
 
-#### So the maximum needed voltage is about ? V and the minimum voltage to operate is about ? V
+#### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 25 V
 
 
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
