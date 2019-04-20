@@ -62,7 +62,7 @@ Also, we need to have a AR-coating of crystal covering the wavelength range of o
 ##### Wavelength needed: 400nm-1100nm
 we may need to order several crystals and make different EOM to cover this range
 
-#### Without resonance circuit, the input voltage needed ( with d = 0.03m, L = 0.3m )
+#### Without resonance circuit, the input voltage needed ( with d = 0.003m, L = 0.03m )
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
