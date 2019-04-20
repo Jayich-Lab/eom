@@ -116,7 +116,7 @@ C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal
 > we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 33.2uH (approximately)
 
 
-##### V<sub>eom</sub>/V<sub>input</sub> = ? = ? (approximately) 
+##### V<sub>eom</sub>/V<sub>input</sub> = 20.86 = 21 (approximately) 
 
 #### So the maximum needed voltage is about ? V and the minimum voltage to operate is about ? V
 
