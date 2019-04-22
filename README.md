@@ -93,7 +93,7 @@ Current plan is to add a inductor (1uF) to the circuit and make it to a resonanc
 
 parameter | Value | Description |
 :---: | :---: | :---: |
-ε<sub>33</sub> | 0.2543 × 10<sup>-9</sup> | permittivity for lithium niobate (in F⋅m<sup>−1</sup>)
+ε<sub>33</sub> | 0.2543 × 10<sup>-9</sup> | permittivity for lithium niobate (in F⋅m<sup>−1</sup>) (about 28~30 times larger than vaccum permittivity)
 A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
 d | 0.003 | distance between plates (in meters)
 C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal 
@@ -116,10 +116,12 @@ C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal
 
 >ω<sub>0</sub> = 2 × π × f
 
-> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 10<sup>-4</sup> H = 33.2uH (approximately)
+> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 33.2 × 10<sup>-6</sup> H = 33.2uH (approximately)
+
+>Quality factor for this circuit(RLC circuit) Q =  20.87 =21 (approximately)
 
 
-##### V<sub>eom</sub>/V<sub>input</sub> = 20.86 = 21 (approximately) 
+##### V<sub>eom</sub>/V<sub>input</sub> = 20.86 = 21 (approximately) _(= quality factor)_
 
 #### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 25 V
 
