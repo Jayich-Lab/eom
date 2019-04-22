@@ -125,6 +125,7 @@ C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal
 
 #### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 25 V
 
+>mingyu says there will be some __`stray capacitance`__ that cannot be eliminated. So actual values for voltage needed will be different for a little bit.
 
 [reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
 
@@ -132,7 +133,7 @@ C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal
 
 ## Shopping list
 
-- [ ] 100uH inductor chip
-- [ ] RF Connector
-- [ ] Indium
+- [ ] 33.2uH inductor chip
+- [ ] RF Connector (50ohm)
+- [ ] Indium foil
 - [ ] Lithium Niobate Crystal
