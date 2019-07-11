@@ -85,6 +85,13 @@
 <hole x="4" y="3.6" drill="6.4"/>
 <hole x="29.6" y="3.6" drill="6.4"/>
 <hole x="29.6" y="27.5" drill="6.4"/>
+<hole x="23.3" y="15" drill="1.1"/>
+<hole x="23.3" y="19" drill="1.1"/>
+<hole x="23.3" y="23" drill="1.1"/>
+<hole x="23.3" y="27" drill="1.1"/>
+<hole x="23.3" y="11" drill="1.1"/>
+<hole x="23.3" y="7" drill="1.1"/>
+<hole x="23.3" y="3" drill="1.1"/>
 </plain>
 <libraries>
 <library name="GLFR1608T101M-LR">
