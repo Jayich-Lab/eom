@@ -1,4 +1,4 @@
-# eom - Phase modulator
+# eom - phase modulating a coherent laser beam 
 
 ## Crystal 
 
