@@ -54,13 +54,10 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 #### Conclusion
 
-So we are going to order Lithium niobate crystal as our EOM crystal.
-##### Base on the calculation of above, it seems that Z-Cut LN crystal will results in lowest input voltage.
-However, in warner's proposal, he chose the Y-Cut of LN crystal. __(they use different value of r<sub>22</sub>)__ In this [reference document](http://www.ece.umd.edu/~davis/chapter19.pdf) it gives r<sub>22</sub> to be the half value  
-##### the halfway voltage needed does not vary very much from different cut, so we may choose Y-Cut of LN crystal.
-Also, we need to have a AR-coating of crystal covering the wavelength range of our experiments.
+So we are going to order Lithium niobate crystal as our EOM crystal. We need to have a AR-coating of crystal covering the wavelength range of our experiments.
+
 ##### Wavelength needed: 400nm-1100nm
-we may need to order several crystals and make different EOM to cover this range
+We may need to order several crystals and make different EOM to cover this range
 
 #### Without resonance circuit, the input voltage needed ( with d = 0.003m, L = 0.03m )
 
