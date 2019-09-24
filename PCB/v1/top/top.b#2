@@ -307,15 +307,15 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/0,8" package3d_urn="urn:adsk.eagle:package:30838/1" value="" x="13.6" y="21.2" smashed="yes">
-<attribute name="NAME" x="12.33" y="22.724" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="13.6" y="21.8" size="0.0254" layer="27"/>
+<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/0,8" package3d_urn="urn:adsk.eagle:package:30838/1" value="" x="11.8" y="20.5" smashed="yes">
+<attribute name="NAME" x="10.53" y="22.024" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="11.8" y="21.1" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="PAD1" pad="1"/>
-<wire x1="17.1" y1="21.2" x2="13.6" y2="21.2" width="0.8128" layer="1"/>
+<wire x1="17.6" y1="20.5" x2="11.8" y2="20.5" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

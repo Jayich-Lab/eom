@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -172,27 +172,27 @@
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="2,54/0,8" urn="urn:adsk.eagle:footprint:30820/1" library_version="1">
+<package name="2,54/1,1" urn="urn:adsk.eagle:footprint:30818/1" library_version="1">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.8128" diameter="2.54" shape="octagon"/>
+<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1176" diameter="2.54" shape="octagon"/>
 <text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="2,54/0,8" urn="urn:adsk.eagle:package:30838/1" type="box" library_version="1">
+<package3d name="2,54/1,1" urn="urn:adsk.eagle:package:30836/1" type="box" library_version="1">
 <description>THROUGH-HOLE PAD</description>
 <packageinstances>
-<packageinstance name="2,54/0,8"/>
+<packageinstance name="2,54/1,1"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -206,18 +206,18 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2,54/0,8" urn="urn:adsk.eagle:component:30856/1" prefix="PAD" uservalue="yes" library_version="1">
+<deviceset name="2,54/1,1" urn="urn:adsk.eagle:component:30855/1" prefix="PAD" uservalue="yes" library_version="1">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
 <gates>
-<gate name="P" symbol="PAD" x="0" y="0"/>
+<gate name="1" symbol="PAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="2,54/0,8">
+<device name="" package="2,54/1,1">
 <connects>
-<connect gate="P" pin="P" pad="1"/>
+<connect gate="1" pin="P" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30838/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30836/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -336,8 +336,8 @@
 </modules>
 <parts>
 <part name="J1" library="SMA-J-P-H-ST-EM1" deviceset="SMA-J-P-H-ST-EM1" device=""/>
-<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/0,8" device="" package3d_urn="urn:adsk.eagle:package:30838/1"/>
 <part name="U$1" library="new_inductor" deviceset="INDUCTOR" device=""/>
+<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -349,13 +349,13 @@
 <attribute name="NAME" x="-55.886909375" y="36.20276875" size="1.78281875" layer="95"/>
 <attribute name="VALUE" x="-55.880659375" y="22.859009375" size="1.78166875" layer="96"/>
 </instance>
-<instance part="PAD1" gate="P" x="-5.08" y="22.86" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-3.937" y="24.7142" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-3.937" y="19.558" size="1.778" layer="96" rot="MR0"/>
-</instance>
 <instance part="U$1" gate="G$1" x="-35.56" y="30.48" smashed="yes">
 <attribute name="VALUE" x="-37.5412" y="26.2128" size="3.4798" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="-36.4744" y="33.8328" size="3.4798" layer="95" ratio="10" rot="SR0"/>
+</instance>
+<instance part="PAD2" gate="1" x="-5.08" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.9342" y="16.637" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-1.778" y="16.637" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -372,9 +372,10 @@
 <net name="GND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
-<pinref part="PAD1" gate="P" pin="P"/>
 <wire x1="-40.64" y1="27.94" x2="-40.64" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="22.86" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="22.86" x2="-5.08" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="-5.08" y1="22.86" x2="-5.08" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2L" class="0">
