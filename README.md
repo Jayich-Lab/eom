@@ -18,7 +18,7 @@ r<sub>22</sub> | 6.8
 r<sub>33</sub> | 30.9 
 r<sub>42</sub> | 32.6  
 
-Taken from Boyd, 2003. This is within a [margin of error](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf)
+Taken from Boyd, 2003. This is within a [margin of error](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf).
 
 #### Required voltage for changing a π phase
 
@@ -29,10 +29,10 @@ The "cut" of a crystal is the direction light is meant to propogate through it, 
 <div align="center"><img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" /></div>
 
 * Applied electric field in Y direction, wave propagates in z direction (Z-Cut):
-<div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{0}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
+<div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{o}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
-#### Reflective Index for Lithium Niobate (LiNbO<sub>3</sub>) at Different wavelength
-##### [Calculator for Reflective index](http://www.luxpop.com)
+#### Refractive Index for Lithium Niobate (LiNbO<sub>3</sub>) at Different wavelength
+##### [Calculator for Refractive index](http://www.luxpop.com)
 
 Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength 
 :---: | :---: | :---:
@@ -43,18 +43,16 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 2.1702 | 2.2491 | 852nm
 2.156 | 2.232 | 1064nm
 
->nm to m (× 10<sup>-9</sup>)
-
 ---
 
 #### Conclusion
 
-So we are going to order Lithium niobate crystal as our EOM crystal. We need to have a AR-coating of crystal covering the wavelength range of our experiments.
+We used Y-cut lithium niobate as our EO crystal. We needed an AR-coating covering the wavelength range of our experiments.
 
-##### Wavelength needed: 400nm-1100nm
-We may need to order several crystals and make different EOM to cover this range
+##### Bandwidth needed: 400nm-1100nm
+We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm.
 
-#### Without resonance circuit, the input voltage needed ( with d = 0.003m, L = 0.03m )
+#### Without resonance circuit, the input voltage needed (with d = 0.003m, L = 0.03m)
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
@@ -67,9 +65,9 @@ We may need to order several crystals and make different EOM to cover this range
 ---
 
 ## Resonance circuit
-We need a resonance circuit to minimize the input voltage which keeps the device safe to opertate.
+We used a resonance circuit to minimize the input voltage which keeps the device safe to operate and avoids extra costs and efforts of generating that high voltage.
 
-Current plan is to add a inductor (1uF) to the circuit and make it to a resonance frequency.
+We use an inductor of 33uH.
 
 ##### resonance frequency is angular frequency devided by 2π
 
