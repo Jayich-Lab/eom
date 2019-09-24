@@ -25,7 +25,7 @@ r<sub>42</sub> | 32.6
 
 #### Required voltage for changing a π phase
 
-Cut of a crystal means the way the light is going to propagate to. (i.e. Y-Cut means light will travels in Y direction of crystal.)
+The "cut" of a crystal is the direction the light is meant to propogate through it, e.g. Y-Cut means light will travel in the Y direction of crystal (where the Y direction is specified by crystal geometry).
 
 <div align="center"><img width="130" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
 
