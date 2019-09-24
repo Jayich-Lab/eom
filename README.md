@@ -18,22 +18,17 @@ r<sub>22</sub> | 6.8
 r<sub>33</sub> | 30.9 
 r<sub>42</sub> | 32.6  
 
->pm to m (× 10<sup>-12</sup>)
->(Boyd, 2003)
->certain error margin should be considered
-[Here shows two different versions of Electro Optic Coefficients](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf)
+Taken from Boyd, 2003. This is within a [margin of error](http://www.lambdaphoto.co.uk/pdfs/Inrad_datasheet_LNB.pdf)
 
 #### Required voltage for changing a π phase
 
-The "cut" of a crystal is the direction the light is meant to propogate through it, e.g. Y-Cut means light will travel in the Y direction of crystal (where the Y direction is specified by crystal geometry).
-
-<div align="center"><img width="130" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{Ln^{3}r}" title="V_{\pi }=\frac{d\lambda }{Ln^{3}r}" /></div>   
+The "cut" of a crystal is the direction light is meant to propogate through it, e.g. Y-Cut means light will travel in the Y direction of crystal (where the X, Y, Z directions are specified by the crystal geometry). The voltage required for a pi phase shift is determined by the cut.
 
 * Applied electric field in Z direction, wave propagates in y direction (Y-Cut) :
 
 <div align="center"><img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" /></div>
 
-* wave propagates in z direction (Z-Cut):
+* Applied electric field in Y direction, wave propagates in z direction (Z-Cut):
 <div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{0}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
 #### Reflective Index for Lithium Niobate (LiNbO<sub>3</sub>) at Different wavelength
