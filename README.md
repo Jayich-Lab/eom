@@ -50,12 +50,9 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 ## Final Design
 
-We used Y-cut lithium niobate as our EO crystal. We needed an AR-coating covering the wavelength range of our experiments.
+We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-1100nm. We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm.
 
-##### Bandwidth needed: 400nm-1100nm
-We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm.
-
-#### Without resonance circuit, the input voltage needed (with d = 0.003m, L = 0.03m)
+#### Without a resonant circuit, the input voltage needed (with d = 3mm, L = 30mm -- the crystal is dxdxL)
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
