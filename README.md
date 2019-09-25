@@ -50,9 +50,9 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 ## Final Design
 
-We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-1100nm. We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm.
+We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-1100nm. We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm. The crystal is 3mm x 3mm x 30mm, where one face is 3mm x 3mm.
 
-#### Without a resonant circuit, the input voltage needed (with D = 3mm, L = 30mm -- the crystal is D x D x L)
+#### Without a resonant circuit, the input voltage needed:
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
@@ -86,13 +86,7 @@ A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
 d | 0.003 | distance between plates (in meters)
 C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal 
 
-We use reactance to calculate the V<sub>eom</sub> with respect to input voltage.
-
->V<sub>eom</sub> is the voltage difference of two plates between the EO crystal.
->V<sub>input</sub> is the needed voltage we are going to plug in.
->R<sub>sma</sub> is the resistance of SMA RF connector.
->R<sub>load</sub> is the resistance for the circuit. Follow by __Claire Warner__'s thesis
->>The portion of conductor immediately surrounding the SMA signal out- put was impedance matched to 50Ω to match the SMA connector and avoid signal reflections 
+We use impedance to calculate the V<sub>eom</sub> with respect to input voltage (V<sub>eom</sub> is the voltage difference of two plates between the EO crystal). V<sub>input</sub> is the applied voltage before the resonant circuit. R<sub>sma</sub> is the resistance of SMA RF connector. R<sub>load</sub> is the resistance for the circuit.
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{eom}=\frac{X_{C}}{X_{C}&plus;X_{L}&plus;R_{sma}&plus;R_{load}}V_{input}" title="V_{eom}=\frac{X_{C}}{X_{C}+X_{L}+R_{sma}+R_{load}}V_{input}" /></div>
 
