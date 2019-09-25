@@ -79,8 +79,6 @@ Permittivity for Lithium Niobate is a tensor:
 
 If we apply electric field in Z direction, we are going to use ε<sub>33</sub>
 
-parameter | Value | Description |
-:---: | :---: | :---: |
 ε<sub>33</sub> | 0.2543 × 10<sup>-9</sup> | permittivity for lithium niobate (in F⋅m<sup>−1</sup>) (about 28~30 times larger than vaccum permittivity)
 A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
 d | 0.003 | distance between plates (in meters)
@@ -100,7 +98,7 @@ We need a modulation frequency f = 10 MHz = 10<sup>7</sup> Hz so we need L ~ 33.
 
 Quality factor for this circuit (RLC circuit) Q ~ 20
 
-#### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 25 V
+So the the maximum voltage required to operate is ~25 V.
 
 There will obviously be stray capacitance and other non-ideal effects. In practice our quality factor was about 6, and our resonant frequency was ~8.7MHz.
 
