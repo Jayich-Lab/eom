@@ -10,7 +10,7 @@ We chose Lithium niobate (LiNbO<sub>3</sub>). It has a good Pockels effect, so w
 #### Electro-optic tensor of LiNbO<sub>3</sub> -- 3m(C3v) point group:
 <div align="center"><img width="175" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\bar{\bar{r}}=\begin{pmatrix}&space;0&-r_{22}&space;&r_{13}&space;\\&space;0&r_{22}&space;&r_{13}&space;\\&space;0&0&space;&r_{33}&space;\\&space;0&r_{42}&space;&0&space;\\&space;r_{42}&0&space;&0&space;\\&space;-r_{22}&0&space;&0&space;\end{pmatrix}" title="\bar{\bar{r}}=\begin{pmatrix} 0&-r_{22} &r_{13} \\ 0&r_{22} &r_{13} \\ 0&0 &r_{33} \\ 0&r_{42} &0 \\ r_{42}&0 &0 \\ -r_{22}&0 &0 \end{pmatrix}" /> </div>  
 
-#### Electro-optic Coefficient for Lithium Niobate (LiNbO<sub>3</sub>)
+#### Electro-optic Coefficient for Lithium Niobate (LiNbO<sub>3</sub>):
 
 Electro-optic Coefficient | Value (pm/V) | 
 :---: | :---: | 
@@ -25,12 +25,13 @@ Taken from Boyd, 2003. This is within a [margin of error](http://www.lambdaphoto
 
 The "cut" of a crystal is the direction light is meant to propogate through it, e.g. Y-Cut means light will travel in the Y direction of crystal (where the X, Y, Z directions are specified by the crystal geometry). The voltage required for a pi phase shift is determined by the cut.
 
-* Applied electric field in Z direction, wave propagates in Y direction (Y-Cut):
+Applied electric field in Z direction, wave propagates in Y direction (Y-Cut):
 
 <div align="center"><img width="250" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" title="V_{\pi}=\frac{d\lambda}{L(r_{33}n_{e}^{3}-r_{13}n_{o}^{3})}" /></div>
 
 
-* Applied electric field in Y direction, wave propagates in Z direction (Z-Cut):
+
+Applied electric field in Y direction, wave propagates in Z direction (Z-Cut):
 <div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{o}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
 #### Refractive Index for Lithium Niobate (LiNbO<sub>3</sub>) at Different wavelength
