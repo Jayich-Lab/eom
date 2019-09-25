@@ -52,7 +52,7 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-1100nm. We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm.
 
-#### Without a resonant circuit, the input voltage needed (with d = 3mm, L = 30mm -- the crystal is dxdxL)
+#### Without a resonant circuit, the input voltage needed (with D = 3mm, L = 30mm -- the crystal is D x D x L)
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
@@ -67,7 +67,7 @@ We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-
 ## Resonant circuit
 We used a resonant circuit to minimize the input voltage which keeps the device safe to operate and avoids the extra effort of generating that high voltage.
 
-##### resonance frequency is angular frequency devided by 2π
+##### Resonance frequency is angular frequency devided by 2π
 
 <div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bb119465c93a0c82f306bea463e78aee8c8c616f"></div>
 
