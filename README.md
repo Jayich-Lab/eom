@@ -92,30 +92,23 @@ We use impedance to calculate the V<sub>eom</sub> with respect to input voltage 
 
 <div align="center"><img width="400" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\left&space;|V&space;_{eom}&space;\right&space;|=\frac{1}{\omega&space;_{0}(R_{sma}&plus;R_{load})C_{eom}}V_{input}" title="\left |V _{eom} \right |=\frac{1}{\omega _{0}(R_{sma}+R_{load})C_{eom}}V_{input}" /></div>
 
-> R<sub>sma</sub> = R<sub>load</sub> = 50 Ω  
+R<sub>sma</sub> = R<sub>load</sub> = 50 Ω  
 
-> C = 7.629 × 10<sup>-12</sup> (approximately)
+C = 7.629 × 10<sup>-12</sup> (approximately)
 
->ω<sub>0</sub> = 2 × π × f
+We need a modulation frequency f = 10 MHz = 10<sup>7</sup> Hz so we need L ~ 33.2uH
 
-> we need to let f = 10 MHz = 10<sup>7</sup> Hz so we need L = 33.2 × 10<sup>-6</sup> H = 33.2uH (approximately)
-
->Quality factor for this circuit(RLC circuit) Q =  20.87 =21 (approximately)
-
-
-##### V<sub>eom</sub>/V<sub>input</sub> = 20.86 = 21 (approximately) _(= quality factor)_
+Quality factor for this circuit (RLC circuit) Q ~ 20
 
 #### So the maximum needed voltage is about 9 V and the minimum voltage to operate is about 25 V
 
->mingyu says there will be some __`stray capacitance`__ that cannot be eliminated. So actual values for voltage needed will be different for a little bit.
-
-[reference about resonance circuit](http://www.sjsu.edu/faculty/beyersdorf/Archive/Phys208F07/ch%208-Electrooptic%20devices.pdf)
+There will obviously be stray capacitance and other non-ideal effects. In practice our quality factor was about 6, and our resonant frequency was ~8.7MHz.
 
 ---
 
-## Shopping list
+Parts used:
 
 - [ ] 33.2uH inductor chip
 - [ ] RF Connector (50ohm)
-- [ ] Indium foil
+- [ ] Indium foil (30mm x 3mm)
 - [ ] Lithium Niobate Crystal
