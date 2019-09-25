@@ -67,17 +67,17 @@ We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-
 ## Resonant circuit
 We used a resonant circuit to minimize the input voltage which keeps the device safe to operate and avoids the extra effort of generating that high voltage.
 
-##### Resonance frequency is angular frequency devided by 2π
+The resonant frequency can be calculated:
 
 <div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bb119465c93a0c82f306bea463e78aee8c8c616f"></div>
 
-##### we can use parallel plate capacitor formular to calculate capacitance: 
+We can use parallel plate capacitor formular to calculate capacitance: 
 <div align="center"><img width="90" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;C=\epsilon&space;_{33}\frac{A}{d}" title="C=\epsilon _{33}\frac{A}{d}" /></div>
 
-##### permittivity for  Lithium Niobate:
+Permittivity for Lithium Niobate is a tensor:
 <div align="center"><img width="180" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;\begin{pmatrix}&space;\epsilon_{11}&space;&0&space;&&space;0&space;\\&space;0&space;&\epsilon_{11}&space;&0&space;\\&space;0&space;&0&space;&\epsilon_{33}&space;\end{pmatrix}" title="\begin{pmatrix} \epsilon_{11} &0 & 0 \\ 0 &\epsilon_{11} &0 \\ 0 &0 &\epsilon_{33} \end{pmatrix}" /></div>
 
->if we apply electric field in Z direction, we are going to use ε<sub>33</sub>
+If we apply electric field in Z direction, we are going to use ε<sub>33</sub>
 
 parameter | Value | Description |
 :---: | :---: | :---: |
@@ -86,7 +86,7 @@ A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
 d | 0.003 | distance between plates (in meters)
 C | 7.629 × 10<sup>-12</sup> | Capacitance of the crystal 
 
-##### we can use Reactance method to calculate the V<sub>eom</sub> with respect to input voltage.
+We use reactance to calculate the V<sub>eom</sub> with respect to input voltage.
 
 >V<sub>eom</sub> is the voltage difference of two plates between the EO crystal.
 >V<sub>input</sub> is the needed voltage we are going to plug in.
