@@ -79,7 +79,7 @@ Permittivity for Lithium Niobate is a tensor:
 
 If we apply electric field in Z direction, we are going to use ε<sub>33</sub>
 
-
+Parameter | Value | Description
 :---: | :---: | :---: 
 ε<sub>33</sub> | 0.2543 × 10<sup>-9</sup> | permittivity for lithium niobate (in F⋅m<sup>−1</sup>) (about 28~30 times larger than vaccum permittivity)
 A | 0.003 × 0.03 | area of two plates (in meters<sup>2</sup>)
