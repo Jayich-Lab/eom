@@ -1,5 +1,8 @@
 # Electro-optic Modulator
 
+![eom1](eom_1.jpg)
+![eom2](eom_2.jpg)
+
 ## EO Crystal 
 
 We chose Lithium niobate (LiNbO<sub>3</sub>). It has a good Pockels effect, so we can minimize the input voltage to achieve the required modulation depth.
