@@ -32,7 +32,7 @@ Applied electric field in Y direction, wave propagates in Z direction (Z-Cut):
 <div align="center"><img width="160" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;V_{\pi&space;}=\frac{d\lambda&space;}{4Ln_{o}^{3}r_{22}}" title="V_{\pi }=\frac{d\lambda }{4Ln_{0}^{3}r_{22}}" /></div>
 
 #### Refractive Index for Lithium Niobate (LiNbO<sub>3</sub>) at Different wavelength
-##### [Calculator for Refractive index](http://www.luxpop.com)
+[Calculator for Refractive index](http://www.luxpop.com)
 
 Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength 
 :---: | :---: | :---:
@@ -45,7 +45,7 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 ---
 
-#### Conclusion
+## Final Design
 
 We used Y-cut lithium niobate as our EO crystal. We needed an AR-coating covering the wavelength range of our experiments.
 
@@ -64,10 +64,8 @@ We used different AR coatings to cover this range, one from 400-700nm and one fr
 
 ---
 
-## Resonance circuit
-We used a resonance circuit to minimize the input voltage which keeps the device safe to operate and avoids extra costs and efforts of generating that high voltage.
-
-We use an inductor of 33uH.
+## Resonant circuit
+We used a resonant circuit to minimize the input voltage which keeps the device safe to operate and avoids the extra effort of generating that high voltage.
 
 ##### resonance frequency is angular frequency devided by 2π
 
