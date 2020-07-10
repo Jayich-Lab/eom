@@ -121,10 +121,14 @@ Parts used:
 
 # Instructions on how to build the EOM
 
-First, mill the mount (generally any plastic works, but delrin was used for our EOMs). The mount design is in the repo as a fusion360 model and an stl/step model. Second, mill the top and bottom pcbs -- the eo crystal is sandwiched in between these, with the indium foil as a cushion. You want to solder on the inductor and the sma connector onto the bottom pcb. You also want to solder the top pcb to the bottom for the non-ground connection. You then want to take the eo crystal and sandwich that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw it all together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount. Note that we use 1/4"-20 screws.
+First, mill the mount (generally any plastic works, but delrin was used for our EOMs). The mount design is in the repo as a fusion360 model and an stl/step model. 
 
-You should be careful not to break the eo when tightening. We found that not much force is required to make electrical contact. Note that our resonant frequency on the circuit was 8.7MHz, but you could change this by changing the inductance (maybe put a few in parallel or something and change the pcb accordingly) if you need a different modulation frequency.
+Second, mill the top and bottom pcbs (the eo crystal will be sandwiched in between these, with the indium foil as a cushion). You should solder the inductor and the sma connector onto the bottom pcb at this point. It is advisable to solder the top pcb to the bottom for the ground connection at this point (leaving an decent amount of slack).
 
-Try to make sure the screws are tightened somewhat evenly. Uneven pressures on the crystal are most likely to break it.
+You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 1/4"-20 screws.
+
+You should be careful not to break the eo crystal when tightening. We found that not much force is required to make electrical contact. Note that our resonant frequency on the circuit was 8.7MHz, but you could change this by changing the inductance (were you in need of a different modulation frequency).
+
+N.B. Try to make sure the screws are tightened somewhat evenly. Uneven pressures on the crystal are most likely to break it.
 
 ![eom1](eom_1.jpg)
