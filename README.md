@@ -115,7 +115,10 @@ Parts used:
 - [ ] Lithium Niobate crystal
 - [ ] Delrin stock (to be milled, <13mm thickness is ideal)
 - [ ] (8) 1/4-20 screws
+- [ ] (8) 1/4-20 nuts
 - [ ] (1) 8/32 screw
+- [ ] 8/32 compatible 1/2" optics post
+- [ ] 1/2" optics post holder
 
 ---
 
