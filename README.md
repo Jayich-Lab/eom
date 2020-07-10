@@ -72,7 +72,7 @@ The resonant frequency can be calculated:
 
 <div align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bb119465c93a0c82f306bea463e78aee8c8c616f"></div>
 
-We can use parallel plate capacitor formular to calculate capacitance: 
+We can use the usual parallel plate capacitor formula to calculate capacitance: 
 <div align="center"><img width="90" src="https://latex.codecogs.com/png.latex?\dpi{300}&space;C=\epsilon&space;_{33}\frac{A}{d}" title="C=\epsilon _{33}\frac{A}{d}" /></div>
 
 Permittivity for Lithium Niobate is a tensor:
