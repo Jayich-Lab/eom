@@ -109,16 +109,19 @@ There will obviously be stray capacitance and other non-ideal effects. In practi
 
 Parts used:
 
-- [ ] 33.2uH inductor chip
-- [ ] RF Connector (50ohm)
+- [ ] [33.2uH inductor chip](https://www.digikey.com/product-detail/en/tdk-corporation/SLF7032T-330MR75-2PF/445-2005-1-ND/755412)
+- [ ] [RF Connector (50ohm)](https://www.digikey.com/products/en?keywords=SMA-J-P-H-ST-EM1)
 - [ ] Indium foil (~4mm x 30mm)
-- [ ] Lithium Niobate Crystal
+- [ ] Lithium Niobate crystal
+- [ ] Delrin stock (to be milled, <13mm thickness is ideal)
+- [ ] (8) 1/4-20 screws
+- [ ] (1) 8/32 screw
 
 ---
 
 # Instructions on how to build the EOM
 
-First, mill the mount (generally any plastic works). This is in the repo as a fusion360 cam. Second, mill the top and bottom pcbs -- the eo crystal is sandwiched in between these, with the indium foil as a cushion. You want to solder on the inductor and the sma connector onto the bottom pcb. You then want to take the eo crystal and sandwich that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw it all together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount. Note that we use 1/4"-20 screws.
+First, mill the mount (generally any plastic works, but delrin was used for our EOMs). The mount design is in the repo as a fusion360 model and an stl/step model. Second, mill the top and bottom pcbs -- the eo crystal is sandwiched in between these, with the indium foil as a cushion. You want to solder on the inductor and the sma connector onto the bottom pcb. You also want to solder the top pcb to the bottom for the non-ground connection. You then want to take the eo crystal and sandwich that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw it all together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount. Note that we use 1/4"-20 screws.
 
 You should be careful not to break the eo when tightening. We found that not much force is required to make electrical contact. Note that our resonant frequency on the circuit was 8.7MHz, but you could change this by changing the inductance (maybe put a few in parallel or something and change the pcb accordingly) if you need a different modulation frequency.
 
