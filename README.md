@@ -125,7 +125,7 @@ Parts used:
 
 First, mill the mount (generally any plastic works, but delrin was used for our EOMs). The mount design is in the repo as a fusion360 model and an stl/step model. 
 
-Second, mill the top and bottom pcbs (the eo crystal will be sandwiched in between these, with the indium foil as a cushion). You should solder the inductor and the sma connector onto the bottom pcb at this point. It is advisable to solder the top pcb to the bottom for the ground connection at this point (leaving an decent amount of slack).
+Second, mill the top and bottom pcbs. Set a large clearance (20 mm) when milling them to make sure that only copper left on the board are required traces. The eo crystal will be sandwiched in between these, with the indium foil as a cushion. You should solder the inductor and the sma connector onto the bottom pcb at this point. It is advisable to solder the top pcb to the bottom for the ground connection at this point (leaving an decent amount of slack).
 
 You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 1/4"-20 screws.
 
