@@ -113,8 +113,8 @@ Parts used:
 - [ ] Indium foil (~4mm x 30mm)
 - [ ] Lithium Niobate crystal
 - [ ] Delrin stock (to be milled, <13mm thickness is ideal)
-- [ ] (8) 1/4-20 screws
-- [ ] (8) 1/4-20 nuts
+- [ ] (8) 4-40 screws
+- [ ] (8) 4-40 nuts
 - [ ] (1) 8/32 screw
 - [ ] 8/32 compatible 1/2" optics post
 - [ ] 1/2" optics post holder
@@ -127,7 +127,7 @@ First, mill the mount (generally any plastic works, but delrin was used for our 
 
 Second, mill the top and bottom pcbs. Set a large clearance (20 mm) when milling them to make sure that only copper left on the board are required traces. The eo crystal will be sandwiched in between these, with the indium foil as a cushion. You should solder the inductor and the sma connector onto the bottom pcb at this point. It is advisable to solder the top pcb to the bottom for the ground connection at this point (leaving an decent amount of slack).
 
-You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 1/4"-20 screws.
+You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 4-40 screws.
 
 You should be careful not to break the eo crystal when tightening. We found that not much force is required to make electrical contact. Note that our resonant frequency on the circuit was 8.7MHz, but you could change this by changing the inductance (were you in need of a different modulation frequency).
 
