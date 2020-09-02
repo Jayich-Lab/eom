@@ -1,4 +1,7 @@
 # Electro-optic Modulator
+
+The design for this project is based heavily on work done in the [Will Lab](https://www.will-lab.com/)
+
 ![eom2](eom_2.jpg)
 
 ## EO Crystal 
