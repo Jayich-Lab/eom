@@ -1,6 +1,6 @@
 # Electro-optic Modulator
 
-The design for this project is based heavily on work done in the [Will Lab](https://www.will-lab.com/)
+The design for this project is based heavily on work done in the [Will Lab](https://www.will-lab.com/) that they generously shared with us.
 
 ![eom2](eom_2.jpg)
 
