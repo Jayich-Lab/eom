@@ -55,7 +55,7 @@ Value for n<sub>e</sub> | Value for n<sub>o</sub>  | Laser wavelength
 
 We used Y-cut lithium niobate as our EO crystal. The bandwidth needed was 400nm-1100nm. We used different AR coatings to cover this range, one from 400-700nm and one from 700-1100nm. The crystal is 3mm x 3mm x 30mm, where one face is 3mm x 3mm.
 
-#### Without a resonant circuit, the input voltage needed:
+#### The voltage needed across the EO crystal is:
 
 λ( in meter ) | V<sub>π</sub> ( in volts )
 :---: | :---: 
