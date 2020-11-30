@@ -131,10 +131,10 @@ First, mill the mount (generally any plastic works, but delrin was used for our 
 
 Second, mill the top and bottom pcbs. Set a large clearance (20 mm) when milling them such that all copper visible on the board is for required lines. The eo crystal will be sandwiched in between the top and bottom pcbs, with the indium foil as a cushion. You should then solder the inductor and the sma connector onto the bottom pcb. It is advisable to solder the top pcb to the bottom for the ground connection at this point (leaving a reasonable amount of slack on the wire used).
 
-You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. (Make sure the side of the eo crystal used is correct!) Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 4-40 screws.
+You then want to take the eo crystal and gently place that between ~4mmx30mm strips of indium foil between the pcbs. (Make sure the side of the eo crystal used is correct!) Finally, screw everything together -- first screw the mount onto the 1/2" post, then the bottom pcb onto the mount, then the top pcb onto the mount (through the bottom pcb). Note that we use 4-40 screws with spring washers to do so.
 
 You should be careful not to break the eo crystal when tightening. We found that not much force is required to make electrical contact. Note that our resonant frequency on the circuit was 8.7MHz, but you could change this by changing the inductance (were you in need of a different modulation frequency).
 
-N.B. Try to make sure the screws are tightened somewhat evenly. Uneven pressures on the crystal are most likely to break it.
+N.B. Try to make sure the screws are tightened somewhat evenly. Uneven pressures on the crystal are most likely to break it (fixed by spring washers).
 
 ![eom1](eom_1.jpg)
