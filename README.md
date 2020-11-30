@@ -113,12 +113,13 @@ Parts used:
 
 - [ ] [33.2uH inductor chip](https://www.digikey.com/product-detail/en/tdk-corporation/SLF7032T-330MR75-2PF/445-2005-1-ND/755412)
 - [ ] [RF Connector (50ohm)](https://www.digikey.com/products/en?keywords=SMA-J-P-H-ST-EM1)
-- [ ] Indium foil (~4mm x 30mm)
+- [ ] (2) Indium foil (~4mm x 30mm)
 - [ ] Lithium Niobate crystal
 - [ ] Delrin stock (to be milled, <13mm thickness is ideal)
 - [ ] (8) 4-40 screws
 - [ ] (8) 4-40 nuts
 - [ ] (1) 8/32 screw
+- [ ] (4) Spring Washers
 - [ ] 8/32 compatible 1/2" optics post
 - [ ] 1/2" optics post holder
 
