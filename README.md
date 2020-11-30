@@ -115,11 +115,11 @@ Parts used:
 - [ ] [RF Connector (50ohm)](https://www.digikey.com/products/en?keywords=SMA-J-P-H-ST-EM1)
 - [ ] (2) Indium foil (~4mm x 30mm)
 - [ ] Lithium Niobate crystal
-- [ ] Delrin stock (to be milled, <13mm thickness is ideal)
+- [ ] [Delrin stock (to be milled, <13mm thickness is ideal)](https://www.mcmaster.com/plastics/wear-resistant-easy-to-machine-delrin-acetal-resin-sheets-bars-and-strips/thickness~1-2/)
 - [ ] (8) 4-40 screws
 - [ ] (8) 4-40 nuts
 - [ ] (1) 8/32 screw
-- [ ] (4) Spring Washers
+- [ ] [(4) Spring Washers](https://www.mcmaster.com/spring-washers/curved-disc-springs-6/id~0-135/)
 - [ ] 8/32 compatible 1/2" optics post
 - [ ] 1/2" optics post holder
 
